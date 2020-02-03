@@ -5,7 +5,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="f193ec1c-573e-4367-b61b-4e2265511beb">
-		<http:listener-connection host="localhost" port="8086" />
+		<http:listener-connection host="localhost" port="8087" />
 	</http:listener-config>
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="640100a9-02a3-4702-850c-4a70e43f215f">
 		<http:request-connection host="thomas-bayer.com" />
